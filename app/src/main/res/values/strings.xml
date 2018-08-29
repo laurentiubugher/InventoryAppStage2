@@ -1,0 +1,116 @@
+<resources>
+
+    <!--Title in the app bar-->
+    <string name="app_name">Inventory App Stage 2</string>
+
+
+    <!-- Title text for the empty view, which describes the empty closet  image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add clothe [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding some clothes</string>
+
+
+    <!-- Label for overflow menu option that inserts fake clothe data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data </string>
+
+    <!-- Label for overflow menu option that deletes all clothe data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Clothes </string>
+
+
+    <!-- Label for editor menu option to save clothe and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current clothes [CHAR LIMIT=20]-->
+    <string name="action_delete">Delete</string>
+
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Hint for the edit text field product name in the editor activity-->
+    <string name="hint_for_product_name_editor">Clothes Name</string>
+
+    <!-- Hint for the edit text field price in the editor activity -->
+    <string name="hint_for_the_price_editor_field">Pls fill in a price above or = 0</string>
+
+
+    <!-- Label for the quantity in the detail overview -->
+    <string name="quantity_text_view_info">Select Quantity</string>
+
+    <!-- Label for the Supplier name overvie-->
+    <string name="supplier_name_info">Supplier Name</string>
+
+    <!-- Hint for the supplier Name-->
+    <string name="hint_for_supplier_name">Pls fill in a Supplier Name</string>
+
+    <!-- Label for the supplier phone Number-->
+    <string name="supplier_phone_number">Supplier Phone Number</string>
+
+    <!-- HInt for the supplier phone Number -->
+    <string name="hint_for_the_supplier_phone_number">Supplier phone number</string>
+
+    <!-- title for the editor activity to insert a new product of clothes-->
+    <string name="editor_activity_title_new_product_Clothes">Add new product of clothes</string>
+
+    <!-- title for the editor activity to edit an existing produc of clothes-->
+    <string name="editor_activity_title_edit_existing_product_clothes">Edit the product</string>
+
+    <!-- Dialog message when user is leaving editor but hasnt saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a users changes -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current clothes-->
+    <string name="keep_editing">Keep editing</string>
+
+
+    <!-- Toast message in editor when new clothes product has falied to be inserted-->
+    <string name="editor_insert_clothes_failed">Error with saving new clothes product</string>
+
+    <!-- Toast message in editor when new clothes product has been successfully inserted -->
+    <string name="editor_insert_clothes_successful">Clothes product saved</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current pet -->
+    <string name="delete_dialog_msg">Delete this clothes product?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet -->
+    <string name="delete">Delete</string>
+
+
+    <!-- Toast message in editor when the current clothes product has failed to be deleted -->
+    <string name="editor_delete_clothes_product_failed">Error with deleting product</string>
+
+    <!-- Toast message in editor when the current clothes product was successfully deleted -->
+    <string name="editor_delete_clothes_product_successful">Product deleted</string>
+
+
+    <!-- Dialog button text for the option to cancel deletion of the current clothes product -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast when there is nothing filled in -->
+    <string name="editor_fill_in">Pleas fill in the blank fields</string>
+
+    <!-- Toast when quantity edit text is left empty -->
+    <string name="editor_quantity_field_cant_be_empty">Pls select quantity</string>
+
+    <!-- Toast that quantity cant be less then 0-->
+    <string name="editor_quantity_cant_be_less_then_0">Quantity cant be less then 0</string>
+
+
+    <!-- question for when the name of the product is empty -->
+    <string name="editor_question_for_empty_field_name">What is the name of the clothes?</string>
+
+    <!-- question for the price of the product is empty -->
+    <string name="editor_question_for_empty_field_price">What is the price for the clothes?</string>
+
+    <!-- question for when the quantity for the product is empty -->
+    <string name="editor_question_for_empty_field_quantity">What is the quantity?</string>
+
+    <!-- question for when the supplier name field is empty -->
+    <string name="editor_question_for_empty_field_supplier_name">What is the name of the supplier?</string>
+
+    <!-- question for when the supplier phone number field is empty -->
+    <string name="editor_question_for_empty_field_supplier_phone_number">What is the phone number of the supplier?</string>
+</resources>
